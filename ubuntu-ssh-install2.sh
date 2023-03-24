@@ -1,6 +1,6 @@
 #!/bin/bash
 # ufw 방화벽 활성화
-sudo apt-get update
+sudo apt update
 sudo apt-get install -y ufw
 sudo ufw allow 19001/tcp
 sudo ufw --force enable

@@ -5,4 +5,4 @@ sudo passwd root
 sudo apt update && apt install -y curl
 
 # 3. SSH 설치 (SSH 설치 , 방화벽 활성화 후 19001)
-curl https://raw.githubusercontent.com/winwin1323/install-sh/main/ubuntu-ssh-install.sh | bash
+curl https://raw.githubusercontent.com/winwin1323/install-sh/main/ubuntu-ssh-install3.sh | bash

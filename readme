@@ -1,5 +1,5 @@
 # 1. sudo passwd 설정
 sudo passwd root
 
-# 초기 설치 curl
+# 2. 설치 curl
 sudo apt-get install -y curl

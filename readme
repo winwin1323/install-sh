@@ -2,4 +2,4 @@
 sudo passwd root
 
 # 2. 설치 curl
-sudo apt-get install -y curl
+sudo apt update && apt install -y curl

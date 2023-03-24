@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # ufw 방화벽 활성화
-sudo ufw enable
+sudo systemctl enable ufw
+sudo systemctl start ufw
 
 # ufw 방화벽에 19001 포트 추가
 sudo ufw allow 19001/tcp

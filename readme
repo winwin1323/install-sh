@@ -21,3 +21,6 @@ curl https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-firewall.
 # 8. rke2-master-install.sh
 curl https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-master-install.sh | bash
 
+# 9. rke2-master-kubectl-install.sh
+curl https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-master-kubectl-install.sh | bash
+

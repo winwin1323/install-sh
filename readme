@@ -1,8 +1,12 @@
 # 1. sudo passwd 설정
 sudo passwd root
 
+# 2. root로 로그인
+su 
+(#1번에 설정한 비밀번호로 로그인)
+
 # 2. curl 설치 
 sudo apt update && apt install -y curl net-tools
 
-# 3. SSH 설치 (SSH 설치 , 방화벽 활성화 후 19001)
+# 4. SSH 설치 (SSH 설치 , 방화벽 활성화 후 19001)
 curl https://raw.githubusercontent.com/winwin1323/install-sh/main/ubuntu-ssh-install3.sh | bash

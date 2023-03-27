@@ -10,7 +10,6 @@ sudo ufw allow 2380/tcp
 sudo ufw allow 30000:32767/tcp
 sudo ufw allow 8472/udp
 sudo ufw allow 4240/tcp
-sudo ufw allow 8/0
 sudo ufw allow 179/tcp
 sudo ufw allow 4789/udp
 sudo ufw allow 5473/tcp

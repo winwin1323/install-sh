@@ -1,4 +1,5 @@
 
+
 # 1. sudo passwd 설정
 sudo passwd root
 
@@ -12,15 +13,23 @@ sudo apt update && apt install -y curl net-tools
 # 4. SSH 설치 (SSH 설치 , 방화벽 활성화 후 19001)
 curl https://raw.githubusercontent.com/winwin1323/install-sh/main/ubuntu-ssh-install3.sh | bash
 
-# 6. rke2-common-init.sh
+# 6. rke2-common-init.sh 공통설치
 curl https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-common-init.sh | bash
 
-# 7. rke2-firewall.sh
+# 7. rke2-firewall.sh RKE2 방화벽리스트
 curl https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-firewall.sh | bash
 
-# 8. rke2-master-install.sh
+# 8. rke2-master-install.sh RKE2 마스터서버 설치
 curl https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-master-install.sh | bash
 
-# 9. rke2-master-kubectl-install.sh
+# 9. *rke2-master-ha-install.sh 마스터서버 클러스터링 구성 IP가 고정되어 있으니 수정해서 사용할 것.*
+# sudo cat /var/lib/rancher/rke2/server/node-token 명령어를 실행해서 토큰값을 구한다. ex) abcdefgtoken 해당토큰 값을 마지막 인자값에 추가한다. 
+# 단. 첫번째 대표 마스터서버를 지정해서 실행하고, 해당 토큰복사해서 각 마스터서버 실행한다.
+curl https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-master-ha-install.sh | bash -s -- "abcdefgtoken" 
+
+
+# 10. rke2-master-kubectl-install.sh
 curl https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-master-kubectl-install.sh | bash
+
+
 

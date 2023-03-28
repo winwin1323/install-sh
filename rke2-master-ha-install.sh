@@ -20,7 +20,6 @@ tls-san:
 server: https://10.253.8.82:9345
 token: "$TOKEN"
 EOF
-fi
 
 sudo systemctl start rke2-server.service
 

@@ -15,7 +15,7 @@ token: "$TOKEN"
 EOF
 
 # Install RKE2 Worker
-curl -sfL https://get.rke2.io | INSTALL_RKE2_VERSION="v1.26.2+rke2r1" INSTALL_RKE2_TYPE="agent" sh -
+curl -sfL https://get.rke2.io | INSTALL_RKE2_VERSION="v1.25.7+rke2r1" INSTALL_RKE2_TYPE="agent" sh -
 
 sleep 3
 

@@ -41,3 +41,8 @@ curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-maste
 # 14. 롱혼 설치
 
 
+# etc.
+#RKE2 uninstall
+/usr/local/bin/rke2-uninstall.sh
+
+

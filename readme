@@ -1,3 +1,4 @@
+
 # 1. sudo passwd 설정
 sudo passwd root
 
@@ -26,9 +27,14 @@ curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-main-
 # Main Master를 제외한 마스터서버에서 각각 실행한다.
 curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-add-master-install.sh | bash -s -- "abcdefgtoken" 
 
+# 10. rke2-worker-install.sh worker 추가 작업
+# 9번에서 작업 토큰을 활용해서 인자값으로 활용한다. 토큰 ex) abcdefgtoken 
+curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-worker-install.sh | bash -s -- "abcdefgtoken" 
 
-# 10. rke2-master-kubectl-install.sh
+# 11. rke2-master-kubectl-install.sh
 curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-master-kubectl-install.sh | bash
+
+
 
 
 

@@ -35,6 +35,7 @@ curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-worke
 curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-master-kubectl-install.sh | bash
 
 # 12. 헬름
+curl -#L https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
 # 13. 랜처 툴 
 

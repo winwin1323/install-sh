@@ -7,8 +7,6 @@ helm repo update
 
 kubectl create namespace longhorn-system
 
-helm install longhorn longhorn/longhorn --namespace longhorn-system
-
 helm install longhorn longhorn/longhorn \
 --namespace longhorn-system \
 --set defaultSettings.defaultDataPath="/home/rke2/longhorn" \

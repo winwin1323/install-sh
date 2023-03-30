@@ -17,7 +17,7 @@ curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-commo
 # 7. rke2-firewall.sh RKE2 방화벽리스트
 curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-firewall.sh | bash
 
-### 8 , 9 번은 IP구성 아이피가 고정되어있으며 필요시 수정하여 작업한다. ###
+### *** 8 , 9 , 10 번은 IP구성 아이피가 고정되어있으며 필요시 수정하여 작업한다. *** ###
 # 8. rke2-main-master-install.sh RKE2 Main Master Server 설치
 curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-main-master-install.sh | bash
 

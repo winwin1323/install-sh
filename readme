@@ -1,4 +1,3 @@
-
 # 1. sudo passwd 설정
 sudo passwd root
 
@@ -38,12 +37,11 @@ curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-maste
 curl -#L https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
 # 13. 랜처 툴 
+curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-rancher-manager-install.sh | bash -s -- "www.abc.com" 
 
 # 14. 롱혼 설치
-
+curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-longhorn-install.sh | bash 
 
 # etc.
 #RKE2 uninstall
 /usr/local/bin/rke2-uninstall.sh
-
-

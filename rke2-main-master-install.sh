@@ -17,7 +17,7 @@ EOF
 
 
 # Install RKE2
-curl -sfL https://get.rke2.io | INSTALL_RKE2_VERSION="v1.25.7+rke2r1" sh -
+curl -sfL https://get.rke2.io | INSTALL_RKE2_VERSION="v1.24.12+rke2r1" sh -
 
 sleep 3
 

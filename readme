@@ -48,7 +48,7 @@ curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-harbo
 # 16. 젠킨스 설치
 
 # 17. 아르고 설치
-
+curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-argo-install.sh | bash 
 
 
 # etc.

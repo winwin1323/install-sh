@@ -43,6 +43,7 @@ curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-ranch
 curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-longhorn-install.sh | bash 
 
 # 15. 하버 설치
+curl -sS https://raw.githubusercontent.com/winwin1323/install-sh/main/rke2-harbor-install.sh | bash -s -- "www.abc.com" 
 
 # 16. 젠킨스 설치
 

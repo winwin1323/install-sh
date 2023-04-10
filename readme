@@ -55,3 +55,4 @@ id admin
 # etc.
 #RKE2 uninstall
 /usr/local/bin/rke2-uninstall.sh
+rm -rf /home/rke2/longhorn

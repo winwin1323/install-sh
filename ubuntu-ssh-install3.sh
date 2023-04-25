@@ -2,7 +2,7 @@
 # ufw 방화벽 활성화
 sudo apt update
 sudo apt-get install -y ufw
-sudo ufw allow 19001/tcp
+sudo ufw allow 19999/tcp
 sudo ufw --force enable
 # SSH 설치
 sudo apt-get install -y openssh-server
